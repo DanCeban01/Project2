@@ -1,0 +1,12 @@
+{application,message_broker,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"message_broker"},
+              {modules,['Elixir.MessageBroker.Application',
+                        'Elixir.MessageBroker.CommandHandler',
+                        'Elixir.MessageBroker.Initializer',
+                        'Elixir.MessageBroker.RoleManager',
+                        'Elixir.MessageBroker.SubscriptionManager',
+                        'Elixir.MessageBroker.TerminalHandler']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.MessageBroker.Application',[]}}]}.
